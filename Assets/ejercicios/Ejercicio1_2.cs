@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Ejercicio1_2 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    string nombre = "Daniela";
     void Start()
     {
-        
+        Debug.Log("¡Hola Mundo!");
+        Debug.Log("Este es el primer videojuego de" + nombre);
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         
