@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio2_7 : MonoBehaviour
+public class Ejercicio6_2 : MonoBehaviour
 {
-    int orofarmeado = 7;
+    // a) true ,b) true  ,c) true  , d) true ,e) false ,f) false
     void Start()
     {
-        Debug.Log("En las 4 horas ha farmeado: " + orofarmeado * 14400 + " de oro");
+        
     }
 
   

@@ -10,7 +10,7 @@ public class Ejercicio2_6 : MonoBehaviour
     float media;
     void Start()
     {
-        media = puntuación1 + puntuación2 + puntuación3 / 3;
+        media = (puntuación1 + puntuación2 + puntuación3) / 3;
         Debug.Log("La puntuación 1 es: " + puntuación1 + " lapuntuacion 2 es: " + puntuación2 + " la puntuación 3 es: " + puntuación3 + " y su media es: "+ media);
     }
 
