@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Ejercicio3_6 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float km;
+    float metrosseg;
     void Start()
     {
-        
+        metrosseg = (km * 1000) / 3600;
+        Debug.Log(km + " km/h son equivalentes a " + metrosseg + " m/s");
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         

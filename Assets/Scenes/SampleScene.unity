@@ -139,8 +139,9 @@ GameObject:
   - component: {fileID: 519420036}
   - component: {fileID: 519420037}
   - component: {fileID: 519420038}
-  - component: {fileID: 519420039}
   - component: {fileID: 519420040}
+  - component: {fileID: 519420050}
+  - component: {fileID: 519420039}
   - component: {fileID: 519420041}
   - component: {fileID: 519420042}
   - component: {fileID: 519420045}
@@ -148,6 +149,8 @@ GameObject:
   - component: {fileID: 519420043}
   - component: {fileID: 519420046}
   - component: {fileID: 519420047}
+  - component: {fileID: 519420048}
+  - component: {fileID: 519420049}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -344,7 +347,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fd8fd88505727d4f8f1c44ca841bb8b, type: 3}
   m_Name: 
@@ -409,12 +412,51 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eb1227a513895d4d8ef10fcd2b12af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radio: 0
+--- !u!114 &519420048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1282aaa27da2f8441b0705b029a29e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  km: 0
+--- !u!114 &519420049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c5ddd9e3bc96941bb4794ebb02ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basetriangle: 0
+  alturatriangle: 0
+--- !u!114 &519420050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87bc1f8c05a6664abeb17f3adce5f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
