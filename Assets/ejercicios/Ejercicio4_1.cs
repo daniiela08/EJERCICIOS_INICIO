@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Ejercicio4_1 : MonoBehaviour
 {
-    
-
-  
-
-  
     void Start()
     {
-        Debug.Log(" El area del circulo es:" + AreaCircle() + " ,el area del triangulo es:" + AreaTriangle() + " ,y la del cuadrado es: " + AreaSquare());
+        Debug.Log(" El area del circulo es:" + AreaCircle(3) + " ,el area del triangulo es:" + AreaTriangle(4, 2) + " ,y la del cuadrado es: " + AreaSquare(2));
     }
     float AreaCircle(float radiocircle)
     {

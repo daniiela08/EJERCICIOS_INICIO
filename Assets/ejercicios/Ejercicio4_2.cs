@@ -7,11 +7,12 @@ public class Ejercicio4_2 : MonoBehaviour
     void Start()
     {
 
-        ConstruirNombre();
+        Debug.Log(ConstruirNombre("Daniela","Barroso","Ruiz",19));
     }
-    void ConstruirNombre(string nombre, string apellido, string apellido2 , int edad)
+    string ConstruirNombre(string nombre, string apellido, string apellido2 , int edad)
     {
-        string saludo = "Te llamas " + nombre + " " + apellido + " " + apellido2 + " y tienes " + edad + " años");
+        string saludo = ("Te llamas " + nombre + " " + apellido + " " + apellido2 + " y tienes " + edad + " años");
+        return saludo;
     }
 
     
